@@ -187,7 +187,7 @@
   "config.encoder.cpr": 8192,
   "config.encoder.phase_offset": 0,
   "config.encoder.phase_offset_float": 0.0,
-  "config.encoder.config.direction": 0,
+  "config.encoder.direction": 0,
   "config.encoder.pre_calibrated": false,
   "config.encoder.enable_phase_interpolation": true,
   "config.encoder.bandwidth": 1000.0,
