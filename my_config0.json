@@ -126,7 +126,7 @@
   "config.motor.motor_type": 0,
   "config.motor.current_lim": 2.0,
   "config.motor.current_lim_margin": 8.0,
-  "config.motor.torque_lim": Infinity,
+  "config.motor.torque_lim": 0.0,
   "config.motor.inverter_temp_limit_lower": 100.0,
   "config.motor.inverter_temp_limit_upper": 120.0,
   "config.motor.requested_current_range": 60.0,
