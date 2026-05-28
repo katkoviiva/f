@@ -190,7 +190,6 @@
   "config.encoder.hall_polarity_calibrated": false,
   "config.encoder.sincos_gpio_pin_sin": 3,
   "config.encoder.sincos_gpio_pin_cos": 4,
-  "acim_estimator.config.slip_velocity": 14.706000328063965,
   "sensorless_estimator.config.observer_gain": 1000.0,
   "sensorless_estimator.config.pll_bandwidth": 1000.0,
   "sensorless_estimator.config.pm_flux_linkage": 0.0015800000401213765,
