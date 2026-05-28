@@ -142,7 +142,7 @@
   "config.controller.enable_torque_mode_vel_limit": true,
   "config.controller.enable_gain_scheduling": false,
   "config.controller.enable_overspeed_error": true,
-  "config.controller.config.control_mode": 2,
+  "config.controller.control_mode": 2,
   "config.controller.input_mode": 2,
   "config.controller.pos_gain": 20.0,
   "config.controller.vel_gain": 0.009999999776482582,
