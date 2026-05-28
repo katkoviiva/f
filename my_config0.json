@@ -158,7 +158,6 @@
   "config.controller.homing_speed": 0.25,
   "config.controller.inertia": 0.0,
   "config.controller.input_filter_bandwidth": 2.0,
-  "config.controller.anticogging.index": 0,
   "config.controller.anticogging.pre_calibrated": true,
   "config.controller.anticogging.calib_anticogging": false,
   "config.controller.anticogging.calib_pos_threshold": 1.0,
