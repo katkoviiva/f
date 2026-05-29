@@ -65,5 +65,5 @@ delay2:
     bne delay2
     dex
   bne delay1
-  jmp start
   rts
+jmp start
