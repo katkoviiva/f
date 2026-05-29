@@ -103,7 +103,7 @@ public class mp3 {
 	            System.err.println("Header verification failed: " + e.getMessage());
 	        }
 	    } else {
-	        System.out.println("Please provide a PNG file path as an argument.");
+	        System.out.println("Please provide a MP3 file path as an argument.");
 	    }
 	}
 } //this is good start
