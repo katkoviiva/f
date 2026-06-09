@@ -10,14 +10,14 @@ HACKABI BOOTKIT
   1 - Tekninen toteutus
     1.1 - Boottiprosessi
     1.2 - Payload
-  2 - Hy�kk�ykselt� suojautuminen
+  2 - Hyökkäykseltä suojautuminen
   3 - Yhteenveto
-  4 - L�hteet
+  4 - Lähteet
 
 
 --[ 0 - Johdanto
 
-Bootkitill� tarkoitetaan rootkitti�, jonka suoritus aloitetaan ennen
+Bootkitillä tarkoitetaan rootkittiä, jonka suoritus aloitetaan ennen
 k�ytt�j�rjestelm�n alustusta tietokoneen k�ynnistyksess�. T�h�n tekniikkaan
 perustuvat mm. vanhat DOS MBR-virukset, TDL/TDSS-bottiverkko, Kon-Boot sek�
 Stoned Bootkit. [0-3]
