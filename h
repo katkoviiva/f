@@ -191,7 +191,7 @@ korottamisen j�lkeen writelle annetun puskurin sis�lt� voidaan korvata jol
 viestill� merkiksi onnistumisesta.
 
 
---[ 2 - Hy�kk�ykselt� suojautuminen
+--[ 2 - Hyökkäykseltä suojautuminen
 
 Kuvailtua bootkit-hy�kk�yst� ei voida est�� muokkaamalla distroa, sill� hy�kk�ys
 ei perustu distron haavoittuvuuksiin. Mielest�ni perimm�inen vika on
@@ -207,13 +207,13 @@ Hy�kk�yst� voi kuitenkin yritt�� vaikeuttaa tekem�ll� muutoksia di
 Hackabi-bootkit k�ytt�� joitakin kovakoodattuja osoitteita, joiden takia bootkit
 hajoaa esimerkiksi SYSLINUXin tai kernelin p�ivitt�misen j�lkeen. My�s
 CD-bootissa ISOLINUX-bootloaderi ladataan kovakoodatusta osoitteesta levylt�,
-mink� takia pienikin muutos distroon rikkoo bootkitin CD:lt� boottauksen.
-Hackabi-bootkitist� on kuitenkin helppo laajentaa geneerinen versio, joka ei
-k�yt� kovakoodattuja osoitteita ja selvi�� joistakin distron p�ivityksist�. Olen
-koodannut Windows 7 -k�ytt�j�rjestelm�lle t�m�n tyyppisen bootkitin vuonna 2011,
-ja se toimii edelleen uusimmissa p�ivitetyiss� Win7-k�ytt�j�rjestelmiss� (2013).
-Bootkitiss� tarvittavien osoitteiden selvitt�mist� voi hankaloittaa esimerkiksi
-obfuskaatiolla, mutta t�m� ainoastaan vaikeuttaa bootkitin kehitt�mist� eik�
+mink� takia pienikin muutos distroon rikkoo bootkitin CD:ltä boottauksen.
+Hackabi-bootkitistä on kuitenkin helppo laajentaa geneerinen versio, joka ei
+käytä kovakoodattuja osoitteita ja selviää joistakin distron päivityksistä. Olen
+koodannut Windows 7 -käyttöjärjestelmälle tämän tyyppisen bootkitin vuonna 2011,
+ja se toimii edelleen uusimmissa päivitetyissä Win7-käyttöjärjestelmissä (2013).
+Bootkitissä tarvittavien osoitteiden selvittämistä voi hankaloittaa esimerkiksi
+obfuskaatiolla, mutta tämä ainoastaan vaikeuttaa bootkitin kehittämistä eikä
 estä hyökkäystä.
 
 Hackabi-bootkitin payload tekee muutoksia muistiin ladattuun kerneliin.
