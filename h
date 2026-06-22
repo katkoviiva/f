@@ -18,24 +18,24 @@ HACKABI BOOTKIT
 --[ 0 - Johdanto
 
 Bootkitillä tarkoitetaan rootkittiä, jonka suoritus aloitetaan ennen
-käyttöjärjestelmän alustusta tietokoneen k�ynnistyksess�. Tähän tekniikkaan
+käyttöjärjestelmän alustusta tietokoneen käynnistyksessä. Tähän tekniikkaan
 perustuvat mm. vanhat DOS MBR-virukset, TDL/TDSS-bottiverkko, Kon-Boot sek�
 Stoned Bootkit. [0-3]
 
-T�ss� esit�n Hackabi-bootkitin, joka lataa Digabi-livek�ytt�j�rjestelm�n ja
-tekee muutoksia muistiin ladattuun kerneliin. N�m� muutokset antavat
-hy�kk��j�lle root-oikeudet, kun hy�kk��j� kirjoittaa valitsemansa salasanansa
-stdout-virtaan esimerkiksi echo-ohjelmalla. Hy�kk�ys ei perustu virheeseen
-Digabi-distrossa, eik� sit� voi siksi t�ydellisesti est�� kielt�m�tt� kokelaiden
-omia p��telaitteita.
+Tässä esitän Hackabi-bootkitin, joka lataa Digabi-livekäyttöjärjestelmän ja
+tekee muutoksia muistiin ladattuun kerneliin. Nämä muutokset antavat
+hyökkääjälle root-oikeudet, kun hyökkääjä kirjoittaa valitsemansa salasanansa
+stdout-virtaan esimerkiksi echo-ohjelmalla. Hyökkäys ei perustu virheeseen
+Digabi-distrossa, eikä sitä voi siksi täydellisesti estää kieltämättä kokelaiden
+omia päätelaitteita.
 
-Hackabi-bootkit on kehitetty Digabi-livek�ytt�j�rjestelm�n versiolle 1.0, eik�
-luultavasti toimi suoraan poikkeavilla versioilla. L�hdekoodit sek� k��nnetty
-levykuva l�ytyv�t osoitteesta:
+Hackabi-bootkit on kehitetty Digabi-livekäyttöjärjestelmän versiolle 1.0, eikä
+luultavasti toimi suoraan poikkeavilla versioilla. Lähdekoodit sekö käännetty
+levykuva löytyvöt osoitteesta:
 
   http://www.niksula.cs.hut.fi/~hirvolt1/hackabi/
 
-Tai yhten� pakettina:
+Tai yhtenä pakettina:
 
   https://mega.co.nz/#!JFk2TBRK!PTDvDwSSeDVXZZNr3Od_M0RYmgMKQj6ldjGpk4KUANQ
 
