@@ -39,58 +39,58 @@ Tai yhtenä pakettina:
 
   https://mega.co.nz/#!JFk2TBRK!PTDvDwSSeDVXZZNr3Od_M0RYmgMKQj6ldjGpk4KUANQ
 
-Koodi k��ntyy FASM-assemblerilla [4] komennolla: fasm image.asm. Levykuvan voi
-kirjoittaa CD:lle tai muistitikulle. Hackabi-bootkitti� voi kokeilla helposti
-mm. VirtualBoxissa tai VMwaressa. N�iden lis�ksi Hackabi-bootkit on testattu
+Koodi kääntyy FASM-assemblerilla [4] komennolla: fasm image.asm. Levykuvan voi
+kirjoittaa CD:lle tai muistitikulle. Hackabi-bootkittiä voi kokeilla helposti
+mm. VirtualBoxissa tai VMwaressa. Näiden lisäksi Hackabi-bootkit on testattu
 toimivaksi oikealla raudalla kirjoittamalla levykuva muistitikulle.
 
-K�yt�nn�ss� Hackabi-bootkitti� k�ytet��n seuraavasti:
+Käytännössä Hackabi-bootkittiä käytetään seuraavasti:
 
-  1. Hy�kk��j� k�ynnist�� tietokoneen Hackabi-bootkitill� k�ytt�m�ll� USB-tikkua
-     tai CD-levy�.
+  1. Hyökkääjä käynnistää tietokoneen Hackabi-bootkitillä käyttämällä USB-tikkua
+     tai CD-levyä.
 
-  2. N�yt�lle ilmestyy teksti, joka ohjeistaa poistamaan Hackabi-bootkitin
-     asemasta ja lataamaan Digabi-k�ynnistysmedian samaan asemaan ja painamaan
+  2. Näytölle ilmestyy teksti, joka ohjeistaa poistamaan Hackabi-bootkitin
+     asemasta ja lataamaan Digabi-käynnistysmedian samaan asemaan ja painamaan
      enter.
 
-  3. T�m�n j�lkeen Digabi-livek�ytt�j�rjestelm� k�ynnistyy.
+  3. Tämän jälkeen Digabi-livekäyttöjärjestelmä käynnistyy.
 
-  4. Nyt hy�kk��j� saa root-oikeudet avaamalla p��tteen ja kirjoittamalla:
+  4. Nyt hyökkääjä saa root-oikeudet avaamalla päätteen ja kirjoittamalla:
      echo "g1v3 m3 r00t b1tch". Lopuksi on suositeltavaa avata uusi shelli
      komennolla su.
 
-Toisessa askeleessa vaaditaan, ett� Digabi-k�ynnistysmedia ladataan samaan
-asemaan mist� Hackabi-bootkit k�ynnistettiin. T�m� rajoitus on nykyisess�
+Toisessa askeleessa vaaditaan, ett� Digabi-käynnistysmedia ladataan samaan
+asemaan mist� Hackabi-bootkit käynnistettiin. Tämä rajoitus on nykyisessä
 koodissa, ja se voidaan tarvittaessa poistaa.
 
-Seuraavaksi esitell��n Hackabi-bootkitin teknist� toteutusta ja toimintatapaa.
-T�m�n j�lkeen k�sittelen suojautumiskeinoja bootkitti� vastaan (tai l�hinn�
+Seuraavaksi esitellään Hackabi-bootkitin teknist� toteutusta ja toimintatapaa.
+Tämän j�lkeen k�sittelen suojautumiskeinoja bootkittiä vastaan (tai lähinnä
 toimivien sellaisten puutetta). Viimeiseksi yhteenveto.
 
 
 --[ 1 - Tekninen toteutus
 
-Hackabi-bootkit on koodattu FASM-assemblerilla [4]. Bootkitin pit�isi k��nty�
-suoraan komennolla: fasm image.asm. K��nt�minen tuottaa "El Torito"-speksin
-mukaisen "no emulation" tilassa bootattavan CD-ROM -levykuvan. Lis�ksi levyn
-ensimm�inen sektori sis�lt�� floppy-bootloaderin, joka mahdollistaa boottauksen
-USB-tikulta. CD:n formaattiin liittyv�n koodin on alunperin kirjoittanut
-Mike Gonta [5], mutta olen tehnyt siihen merkitt�vi� muutoksia. Kaikki muu koodi
+Hackabi-bootkit on koodattu FASM-assemblerilla [4]. Bootkitin pitäisi kääntyä
+suoraan komennolla: fasm image.asm. Kääntäminen tuottaa "El Torito"-speksin
+mukaisen "no emulation" tilassa bootattavan CD-ROM -levykuvan. Lisäksi levyn
+ensimmäinen sektori sisältää floppy-bootloaderin, joka mahdollistaa boottauksen
+USB-tikulta. CD:n formaattiin liittyvän koodin on alunperin kirjoittanut
+Mike Gonta [5], mutta olen tehnyt siihen merkittäviä muutoksia. Kaikki muu koodi
 on minun kirjoittamaani - osa koodista on kopioitu aikaisemmista projekteistani.
 
-Tietokoneen k�ynnistyksess� BIOS lataa bootkitin muistiin. Bootkitin ensimm�inen
-teht�v� on ladata oikea k�ytt�j�rjestelm� (t�ss� Digabi-livek�ytt�j�rjestelm�)
-muistiin ja aloittaa sen alustus. T�m�n lis�ksi bootkitin on s�ilytt�v�
-muistissa siihen asti, ett� k�ytt�j�rjestelm� on alustettu riitt�v�n pitk�lle
-(esim. kernel ladattu muistiin) ja teht�v� lopuksi toivotut muutokset ladattuun
-k�ytt�j�rjestelm��n. K�yt�nn�ss� bootkit hookkaa k�ytt�j�rjestelm�n alustuksessa
-k�ytett�vi� rutiineja s�ilytt��kseen koodin suorituksen hallinnassaan kernelin
+Tietokoneen k�ynnistyksessä BIOS lataa bootkitin muistiin. Bootkitin ensimmäinen
+tehtävä on ladata oikea käyttöjärjestelmä (tässä Digabi-livekäyttöjärjestelmä)
+muistiin ja aloittaa sen alustus. Tämän lisäksi bootkitin on säilyttävä
+muistissa siihen asti, että käyttöjärjestelmä on alustettu riittävän pitkälle
+(esim. kernel ladattu muistiin) ja tehtävä lopuksi toivotut muutokset ladattuun
+käyttöjärjestelmään. Käytännössä bootkit hookkaa käyttöjärjestelmän alustuksessa
+käytettäviä rutiineja säilyttääkseen koodin suorituksen hallinnassaan kernelin
 alustamiseen saakka. Hookkaamisella tarkoitetaan ohjelmiston muokkaamista siten,
-ett� koodin suoritus palautuu hookkaajalle (bootkitille) kun hookattu kohta
+että koodin suoritus palautuu hookkaajalle (bootkitille) kun hookattu kohta
 koodista suoritetaan.
 
-Kohdassa 1.1 k�sitell��n Hackabi-bootkitin hookkeja, joilla saavutetaan koodin
-suoritus hieman ennen kernelin entry pointtia. T�m�n j�lkeen kuvataan kerneliin
+Kohdassa 1.1 k�sitellään Hackabi-bootkitin hookkeja, joilla saavutetaan koodin
+suoritus hieman ennen kernelin entry pointtia. Tämän jälkeen kuvataan kerneliin
 teht�v�t muutokset kohdassa 1.2.
 
 
@@ -98,30 +98,30 @@ teht�v�t muutokset kohdassa 1.2.
 
 Hackabi-bootkitin suoritus alkaa, kun BIOS lataa bootkitin CDROM- tai
 floppy-bootloaderin osoitteeseen 0x7C00. Bootloaderit lataavat
-bootkit.inc-tiedoston koodin alkamaan osoitteesta 0x6000 ja hypp��v�t sen
+bootkit.inc-tiedoston koodin alkamaan osoitteesta 0x6000 ja hyppäävät sen
 alkuun. Valitsin osoitteen 0x6000, koska Digabin SYSLINUX-bootloader [6] ei
 k�yt� lainkaan muistialuetta 0x6000-0x6C00 (3 KB tilaa).
 
-Ennen k�ytt�j�rjestelm�n lataamista bootkit hookkaa IVT:st� (Interrupt Vector
+Ennen käyttöjärjestelmän lataamista bootkit hookkaa IVT:stä (Interrupt Vector
 Table [7]) keskeytyksen 0x13 (AH=2), joka on levysektorien lukemiseen
-tarkoitettu BIOS-palvelu. Digabi kutsuu t�t� palvelua ensimm�isen kerran
-boottivalikoiden sek� vastaanvapauslausekkeiden esitt�misen j�lkeen, mik� on
-kohtalaisen my�h��n bootissa ja siksi hyv� ensimm�inen hookkauspaikka. En
-k�ytt�nyt l�hdekoodeja reversauksessa, joten en ole varma mit� Digabi yritt��
-lukea levyilt�. BIOS-palvelua kutsutaan per�kk�in levyille indekseill�
+tarkoitettu BIOS-palvelu. Digabi kutsuu tätä palvelua ensimm�isen kerran
+boottivalikoiden sekä vastaanvapauslausekkeiden esitt�misen j�lkeen, mik� on
+kohtalaisen myöhään bootissa ja siksi hyvä ensimm�inen hookkauspaikka. En
+käyttänyt lähdekoodeja reversauksessa, joten en ole varma mitä Digabi yrittää
+lukea levyiltä. BIOS-palvelua kutsutaan peräkkäin levyille indekseillä
 0x80-0x8F, joten kyseess� on luultavasti jokin luettavissa olevien kiintolevyjen
-kartoitus. Kuitenkin, IVT:n hookkauksen j�lkeen bootkit lataa Digabin
-SYSLINUX/ISOLINUX-bootloaderin osoitteeseen 0x7C00 ja hypp�� siihen. Nyt
-Digabi-k�ytt�j�rjestelm�n alustus etenee normaalisti, kunnes boottivalikoiden
-j�lkeen kutsutaan hookattua BIOS-palvelua, jolloin koodin suoritus palaa
+kartoitus. Kuitenkin, IVT:n hookkauksen jälkeen bootkit lataa Digabin
+SYSLINUX/ISOLINUX-bootloaderin osoitteeseen 0x7C00 ja hyppää siihen. Nyt
+Digabi-käyttöjärjestelmän alustus etenee normaalisti, kunnes boottivalikoiden
+jälkeen kutsutaan hookattua BIOS-palvelua, jolloin koodin suoritus palaa
 bootkitille.
 
 Keskeytyksen 0x13 hookissa on seuraavaksi hookattava protected modessa
-suoritettava hyppy - uskoakseni - kernelin lataajaan. Hookkaus voidaan tehd�
-ylikirjoittamalla jokin tai jotkin k�skyt hypyll� bootkitin koodiin. Hyppy
+suoritettava hyppy - uskoakseni - kernelin lataajaan. Hookkaus voidaan tehdä
+ylikirjoittamalla jokin tai jotkin k�skyt hypyllä bootkitin koodiin. Hyppy
 kernelin lataajaan sijaitsee osoitteessa 0x0010006A, joka on niin korkealla
-osoiteavaruudessa, ettei siihen p��se k�siksi real modesta, jossa keskeytys 0x13
-k�sitell��n. Ratkaisuksi Hackabi-bootkit hookkaa ensiksi kohdan 0x00013445,
+osoiteavaruudessa, ettei siihen pääse k�siksi real modesta, jossa keskeytys 0x13
+käsitellään. Ratkaisuksi Hackabi-bootkit hookkaa ensiksi kohdan 0x00013445,
 jonka SYSLINUX-bootloader suorittaa pian protected modeen siirtymisen jälkeen.
 Tässä hookissa hookataan kernelin lataajan hyppy. Tämän jälkeen hookataan
 edelleen pari kohtaa, kunnes lopulta päästään lähelle kernelin entry pointtia.
@@ -158,59 +158,59 @@ kerneliin on ladattu muistiin vasta boottauksen viimeisissä vaiheissa.
 ----[ 1.2 - Payload
 
 Hackabi-bootkitin payload on koodi, joka suoritetaan juuri ennen Digabin
-kerneli�. Payload tekee lopulliset muutokset muistiin ladattuun kerneliin.
-Tavoitteena on muokata kerneli� niin, ett� hy�kk��j� saa root-oikeudet ilman
-root-tunnuksen salasanan tiet�mist�.
+kerneliä. Payload tekee lopulliset muutokset muistiin ladattuun kerneliin.
+Tavoitteena on muokata kerneliä niin, että hyökkääjä saa root-oikeudet ilman
+root-tunnuksen salasanan tietämistä.
 
-Otin l�hestymistavaksi hookata keskeytyksen 0x80, jota k�ytet��n
-j�rjestelm�kutsujen l�hett�miseen. Esimerkiksi kutsua write(fd, buf, count)
-vastaa j�rjestelm�kutsu parametreilla EAX=4, EBX=stdout, ECX=buf, EDX=count.
-Hookkaamalla keskeytys 0x80 pystyt��n seuraamaan mit� parametreja writelle
-sy�tet��n, mik� mahdollistaa esimerkiksi kutsuvan prosessin oikeuksien
-korottamisen, jos buf sis�lt�� hy�kk��j�n valitseman salasanan. Muun muassa
-echo-ohjelma kirjoittaa viestit stdout-virtaan k�ytt�m�ll�
-write-j�rjestelm�kutsua. T�m�n ansiosta hy�kk��j� voi korottaa p��tteens�
+Otin lähestymistavaksi hookata keskeytyksen 0x80, jota käytetään
+j�rjestelmäkutsujen lähettämiseen. Esimerkiksi kutsua write(fd, buf, count)
+vastaa järjestelmäkutsu parametreilla EAX=4, EBX=stdout, ECX=buf, EDX=count.
+Hookkaamalla keskeytys 0x80 pystytään seuraamaan mitä parametreja writelle
+syötetään, mik� mahdollistaa esimerkiksi kutsuvan prosessin oikeuksien
+korottamisen, jos buf sisältää hyökkääjän valitseman salasanan. Muun muassa
+echo-ohjelma kirjoittaa viestit stdout-virtaan käyttämällä
+write-järjestelmäkutsua. Tämän ansiosta hyökkääjä voi korottaa päätteensä
 oikeudet tulostamalla echo-ohjelmalla valitsemansa salasanan.
 
 Tavallinen ja suoraviivainen tapa keskeytyksen 0x80 hookkaamiseen on korvata
 IDT:n (Interrupt Descriptor Table) alkio 0x80, joka l�ydet��n SIDT-konek�skyn
-avulla. T�m� ei kuitenkaan nyt toimi, koska bootkitin payload suoritetaan ennen
-kerneli�, jolloin IDT ei ole viel� alustettu. Sen sijaan Hackabi-bootkit hookkaa
-kernelist� osoitteen 0xC12B71B0, josta alkaa keskeytyksen 0x80 k�sittelij�.
-Lis�ksi ongelmana on sivutaulun alustus, joka tyhjent�� bootkitin muistialueen
-0x6000-0x6C00, kun kernelin suoritus aloitetaan. T�m�n takia j�rjestelm�kutsun
-hookkiin liittyv� koodi on siirrett�v� muualle muistissa (muita osia bootkitin
-koodista ei en�� tarvita ja niiden voidaan antaa pyyhkiyty� pois). Vapaata tilaa
+avulla. Tämä ei kuitenkaan nyt toimi, koska bootkitin payload suoritetaan ennen
+kerneliä, jolloin IDT ei ole vielä alustettu. Sen sijaan Hackabi-bootkit hookkaa
+kernelistä osoitteen 0xC12B71B0, josta alkaa keskeytyksen 0x80 k�sittelijä.
+Lisäksi ongelmana on sivutaulun alustus, joka tyhjentää bootkitin muistialueen
+0x6000-0x6C00, kun kernelin suoritus aloitetaan. Tämän takia järjestelmäkutsun
+hookkiin liittyv� koodi on siirrettävä muualle muistissa (muita osia bootkitin
+koodista ei enää tarvita ja niiden voidaan antaa pyyhkiyty� pois). Vapaata tilaa
 l�ytyy riitt�v�sti alkaen osoitteesta: 0xC12BB6B4.
 
-J�rjestelm�kutsu-hookissa oikeudet korotetaan asettamalla prosessin
+Järjestelmäkutsu-hookissa oikeudet korotetaan asettamalla prosessin
 task_struct-tietueen osoittaman cred-tietueen kent�t uid, gid, euid ja egid
-nollaksi. Digabi-k�ytt�j�rjestelm�ss� osoitin aktiivisen prosessin
-task_struct-tietueeseen l�ytyy FS-segmentin takaa osoitteesta 0xDDC. Oikeuksien
-korottamisen j�lkeen writelle annetun puskurin sis�lt� voidaan korvata jollakin
-viestill� merkiksi onnistumisesta.
+nollaksi. Digabi-käyttöjärjestelmässä osoitin aktiivisen prosessin
+task_struct-tietueeseen löytyy FS-segmentin takaa osoitteesta 0xDDC. Oikeuksien
+korottamisen jälkeen writelle annetun puskurin sisältä voidaan korvata jollakin
+viestillä merkiksi onnistumisesta.
 
 
 --[ 2 - Hyökkäykseltä suojautuminen
 
-Kuvailtua bootkit-hy�kk�yst� ei voida est�� muokkaamalla distroa, sill� hy�kk�ys
-ei perustu distron haavoittuvuuksiin. Mielest�ni perimm�inen vika on
-koetilanteessa. Ehdotetusta koej�rjestelyst� puuttuu chain of trust, koska
-kokelas saa tuoda oman p��telaitteensa. Tietoturvan rakentaminen ilman chain of
-trustia on pelkk�� masturbaatiota eik� johda mihink��n. Oikea ratkaisu on
-kielt�� omat p��telaitteet ja bootata p��telaitteilla ainoastaan
-allekirjoitettua koodia. T�ll�in k�ytt�j�rjestelm� voi luottaa alla olevaan
-laitteestoon, ja siihen, ettei hy�kk��j� ole muokannut k�ytt�j�rjestelm��. N�in
-estett�isiin my�s valtava m��r� muita hy�kk�yksi�.
+Kuvailtua bootkit-hyökkäystä ei voida estää muokkaamalla distroa, sill� hyökkäys
+ei perustu distron haavoittuvuuksiin. Mielestäni perimmäinen vika on
+koetilanteessa. Ehdotetusta koejärjestelystä puuttuu chain of trust, koska
+kokelas saa tuoda oman päätelaitteensa. Tietoturvan rakentaminen ilman chain of
+trustia on pelkkää masturbaatiota eikä johda mihinkään. Oikea ratkaisu on
+kieltää omat päätelaitteet ja bootata päätelaitteilla ainoastaan
+allekirjoitettua koodia. Tällöin käyttöjärjestelmä voi luottaa alla olevaan
+laitteestoon, ja siihen, ettei hyökkääjä ole muokannut käyttöjärjestelmää. Näin
+estettäisiin myös valtava määrä muita hyökkäyksiä.
 
-Hy�kk�yst� voi kuitenkin yritt�� vaikeuttaa tekem�ll� muutoksia distroon.
-Hackabi-bootkit k�ytt�� joitakin kovakoodattuja osoitteita, joiden takia bootkit
-hajoaa esimerkiksi SYSLINUXin tai kernelin p�ivitt�misen j�lkeen. My�s
+Hyökkäystä voi kuitenkin yrittää vaikeuttaa tekemällä muutoksia distroon.
+Hackabi-bootkit käyttää joitakin kovakoodattuja osoitteita, joiden takia bootkit
+hajoaa esimerkiksi SYSLINUXin tai kernelin päivittämisen jälkeen. Myös
 CD-bootissa ISOLINUX-bootloaderi ladataan kovakoodatusta osoitteesta levylt�,
-mink� takia pienikin muutos distroon rikkoo bootkitin CD:ltä boottauksen.
-Hackabi-bootkitistä on kuitenkin helppo laajentaa geneerinen versio, joka ei
+minkä takia pienikin muutos distroon rikkoo bootkitin CD:ltä boottauksen.
+Hackabi-bootkitist� on kuitenkin helppo laajentaa geneerinen versio, joka ei
 käytä kovakoodattuja osoitteita ja selviää joistakin distron päivityksistä. Olen
-koodannut Windows 7 -käyttöjärjestelmälle tämän tyyppisen bootkitin vuonna 2011,
+koodannut Windows 7 -käyttöjärjestelm�lle tämän tyyppisen bootkitin vuonna 2011,
 ja se toimii edelleen uusimmissa päivitetyissä Win7-käyttöjärjestelmissä (2013).
 Bootkitissä tarvittavien osoitteiden selvittämistä voi hankaloittaa esimerkiksi
 obfuskaatiolla, mutta tämä ainoastaan vaikeuttaa bootkitin kehittämistä eikä
