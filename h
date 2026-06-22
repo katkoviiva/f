@@ -122,37 +122,37 @@ ylikirjoittamalla jokin tai jotkin k�skyt hypyll� bootkitin koodiin. Hyppy
 kernelin lataajaan sijaitsee osoitteessa 0x0010006A, joka on niin korkealla
 osoiteavaruudessa, ettei siihen p��se k�siksi real modesta, jossa keskeytys 0x13
 k�sitell��n. Ratkaisuksi Hackabi-bootkit hookkaa ensiksi kohdan 0x00013445,
-jonka SYSLINUX-bootloader suorittaa pian protected modeen siirtymisen j�lkeen.
-T�ss� hookissa hookataan kernelin lataajan hyppy. T�m�n j�lkeen hookataan
-edelleen pari kohtaa, kunnes lopulta p��st��n l�helle kernelin entry pointtia.
+jonka SYSLINUX-bootloader suorittaa pian protected modeen siirtymisen jälkeen.
+Tässä hookissa hookataan kernelin lataajan hyppy. Tämän jälkeen hookataan
+edelleen pari kohtaa, kunnes lopulta päästään lähelle kernelin entry pointtia.
 Kaiken kaikkiaan bootkit toimii seuraavasti:
 
   1. Hookkaa IVT:st� INT 0x13 (AH=2, read sectors from a drive).
   
-  2. Lataa Digabi-livek�ytt�j�rjestelm�n bootloader osoitteeseen 0x7C00 ja
+  2. Lataa Digabi-livekäyttöjärjestelmän bootloader osoitteeseen 0x7C00 ja
      aloita sen suoritus.
 
-  3. IVT-hookin ensimm�isess� kutsussa hookkaa protected modessa suoritettava
+  3. IVT-hookin ensimmäisessä kutsussa hookkaa protected modessa suoritettava
      kohta 0x00013445.
 
-  4. Edellisess� askeleessa asetetussa hookissa hookkaa hyppy kernelin
+  4. Edellisessä askeleessa asetetussa hookissa hookkaa hyppy kernelin
      lataajaan. Hyppy sijaitsee osoitteessa 0x0010006A.
 
   5. Seuraavaksi hookkaa jokin kohta, jossa hyppy kerneliin on ladattu muistiin.
-     Hackabi-bootkit k�ytt�� osoitetta 0x01587E0B.
+     Hackabi-bootkit käyttää osoitetta 0x01587E0B.
 
   6. Viimeiseksi hookkaa hyppy purettuun kerneliin (hyppy @ 0x012A728F).
 
   7. Suorita payload.
 
-Huom! En ole varma, voivatko yll�mainittujen osoitteiden base-osoitteet muuttua.
+Huom! En ole varma, voivatko yllämainittujen osoitteiden base-osoitteet muuttua.
 Varsinaista ASLRia (Address Space Layout Randomization [8]) ei tavallisesti
-k�ytet� bootloadereissa. Hackabi-bootkit on kuitenkin koodattu niin, ett� sen
-pit�isi toimia, vaikka base-osoitteet muuttuisivatkin.
+käytetä bootloadereissa. Hackabi-bootkit on kuitenkin koodattu niin, että sen
+pitäisi toimia, vaikka base-osoitteet muuttuisivatkin.
 
-Joku saattaa ihmetell�, miksi on hookattava n�in monta eri kohtaa. Eik� riit�,
-jos heti alussa hookataan hyppy kerneliin? T�m� ei ole mahdollista, koska hyppy
-kerneliin on ladattu muistiin vasta boottauksen viimeisiss� vaiheissa.
+Joku saattaa ihmetellä, miksi on hookattava näin monta eri kohtaa. Eikä riitä,
+jos heti alussa hookataan hyppy kerneliin? Tämä ei ole mahdollista, koska hyppy
+kerneliin on ladattu muistiin vasta boottauksen viimeisissä vaiheissa.
 
 
 ----[ 1.2 - Payload
@@ -214,29 +214,29 @@ koodannut Windows 7 -k�ytt�j�rjestelm�lle t�m�n tyyppisen bootkitin 
 ja se toimii edelleen uusimmissa p�ivitetyiss� Win7-k�ytt�j�rjestelmiss� (2013).
 Bootkitiss� tarvittavien osoitteiden selvitt�mist� voi hankaloittaa esimerkiksi
 obfuskaatiolla, mutta t�m� ainoastaan vaikeuttaa bootkitin kehitt�mist� eik�
-est� hy�kk�yst�.
+estä hyökkäystä.
 
 Hackabi-bootkitin payload tekee muutoksia muistiin ladattuun kerneliin.
-Perinteisesti n�ilt� muutoksilta suojaudutaan PaX- ja grsecurity-tyyppisill�
-muokkauksilla, mutta ne eiv�t ole hyv� ratkaisu bootkittej� vastaan. Bootkit
-suoritetaan suurimmilla mahdollisilla oikeuksilla sek� ennen kernelin ja
-suojausten alustamista, mink� vuoksi bootkitill� on etuly�ntiasema t�llaisiin
-suojauksiin n�hden.
+Perinteisesti näiltä muutoksilta suojaudutaan PaX- ja grsecurity-tyyppisillä
+muokkauksilla, mutta ne eivät ole hyvä ratkaisu bootkittejä vastaan. Bootkit
+suoritetaan suurimmilla mahdollisilla oikeuksilla sekä ennen kernelin ja
+suojausten alustamista, minkä vuoksi bootkitillä on etulyöntiasema tällaisiin
+suojauksiin nähden.
 
-Hackabi-bootkitin voi bootata CD:lt� tai muistitikulta. Suojautumiseksi voisi
-ehdottaa "ylim��r�isten" boottimedioiden kielt�mist� koetilanteessa. On
-kuitenkin mahdollista muokata bootkitist� versio, joka kirjoitetaan kiintolevyn
-MBR:��n (Master Boot Record [0,9]). Nyt asettamalla kiintolevy ensimm�iseksi
-boottij�rjestyksess� saadaan bootkit k�ynnistetty� t�ysin huomaamattomasti.
+Hackabi-bootkitin voi bootata CD:ltä tai muistitikulta. Suojautumiseksi voisi
+ehdottaa "ylimääräisten" boottimedioiden kieltämistä koetilanteessa. On
+kuitenkin mahdollista muokata bootkitistä versio, joka kirjoitetaan kiintolevyn
+MBR:ään (Master Boot Record [0,9]). Nyt asettamalla kiintolevy ensimmäiseksi
+boottijärjestyksessä saadaan bootkit käynnistettyä täysin huomaamattomasti.
 
 Toisaalta kyse on vain ylioppilaskirjoituksista, joten imo ihan sama vaikka joku
-huijaa tai k�ytetyss� j�rjestelm�ss� on n�in perustavaa laatua oleva aukko, jota
-ei voi korjata. K�yt�nn�ss� riitt��, ett� huijaaminen on tarpeeksi hankalaa.
+huijaa tai käytetyssä järjestelmässä on näin perustavaa laatua oleva aukko, jota
+ei voi korjata. Käytännössä riittää, että huijaaminen on tarpeeksi hankalaa.
 
 
 --[ 3 - Yhteenveto
 
-Esittelin bootkit-tekniikkaan perustuvan hy�kk�yksen, jonka avulla hy�kk��j� saa
+Esittelin bootkit-tekniikkaan perustuvan hyökkäyksen, jonka avulla hyökkääjä saa
 Digabi-käyttöjärjestelmään root-oikeudet valitsemallaan salasanalla. Entryn
 tarkoitus oli havainnollistaa kokelaiden omien päätelaitteiden sallimiseen
 liittyviä tietoturvaongelmia. Ainoa varma keino hyökkäyksen estämiseen on omien
