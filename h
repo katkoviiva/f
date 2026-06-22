@@ -18,7 +18,7 @@ HACKABI BOOTKIT
 --[ 0 - Johdanto
 
 Bootkitillä tarkoitetaan rootkittiä, jonka suoritus aloitetaan ennen
-k�ytt�j�rjestelm�n alustusta tietokoneen k�ynnistyksess�. T�h�n tekniikkaan
+käyttöjärjestelmän alustusta tietokoneen k�ynnistyksess�. Tähän tekniikkaan
 perustuvat mm. vanhat DOS MBR-virukset, TDL/TDSS-bottiverkko, Kon-Boot sek�
 Stoned Bootkit. [0-3]
 
