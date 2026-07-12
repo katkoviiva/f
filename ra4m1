@@ -209,116 +209,44 @@ FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\rene
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA2A1AB.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA2E1A9.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA2E2A7.h
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA2L1AB.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA4E10D.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA4M1AB.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA4M2AD.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA4M3AF.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA4W1AD.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6E10F.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6M1AD.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6M2AF.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6M3AH.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6M4AF.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6M5BH.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6T1AD.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\R7FA6T2BD.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\renesas.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENES
-           AS\Include\system.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_arm_ex
-           ceptions.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_clocks
-           .h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_common
-           .h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_compil
-           er_support.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_delay.
-           h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_group_
-           irq.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_guard.
-           h
-
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA2L1AB.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA4E10D.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESS\Include\R7FA4M1AB.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA4M2AD.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA4M3AF.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA4W1AD.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6E10F.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6M1AD.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6M2AF.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6M3AH.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6M4AF.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6M5BH.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6T1AD.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\R7FA6T2BD.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\renesas.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\cmsis\Device\RENESAS\Include\system.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_arm_exceptions.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_clocks.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_common.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_compiler_support.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_delay.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_group_irq.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_guard.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_io.h
-
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_irq.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_mcu_ap
-           i.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_module
-           _stop.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_regist
-           er_protection.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_securi
-           ty.h
-
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_mcu_api.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_module_stop.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_register_protection.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_security.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\all\bsp_tfu.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\ra4m1\bsp_elc.
-           h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\ra4m1\bsp_feat
-           ure.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\ra4m1\bsp_mcu_
-           info.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_aes_priva
-           te.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_ecc_priva
-           te.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_hash_priv
-           ate.h
-
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\ra4m1\bsp_elc.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\ra4m1\bsp_feature.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\bsp\mcu\ra4m1\bsp_mcu_info.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_aes_private.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_ecc_private.h
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_hash_private.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_private.h
-
-FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_rsa_priva
-           te.h
-
+FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_rsa_private.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\hw_sce_trng_private.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\SCE_ProcCommon.h
 FullName : C:\Users\jussi\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\variants\UNOWIFIR4\includes\ra\fsp\src\r_sce\common\hw_sce_common.h
