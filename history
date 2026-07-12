@@ -1,0 +1,1002 @@
+demig0d@testailua:~ $ history
+ 1029  sudo fsck.vfat -a /dev/sdb1
+ 1030  sudo mount /dev/sdb1
+ 1031  lsblk
+ 1032  sudo dmesg
+ 1033  lsblk
+ 1034  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1035  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1036  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1037  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1038  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1039  lsblk
+ 1040  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1041  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1042  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1043  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1044  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1045  python3 ssd1306_0.py
+ 1046  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1047  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1048  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1049  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1050  sudo i2ctransfer -y 1 r5@0x3c
+ 1051  sudo i2ctransfer -y 1 r100@0x3c
+ 1052  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1053  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1054  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1055  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1056  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1057  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1058  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1059  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1060  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1061  crontab  -e
+ 1062  crontab  -l
+ 1063  cat ssd1306_0.py
+ 1064  cat ssd1306.py
+ 1065  6 & 5
+ 1066  ((6 & 5))
+ 1067  (6 & 5)
+ 1068  {}
+ 1069  ;
+ 1070  :
+ 1071  :()
+ 1072  ulimit -u
+ 1073  sysctl vm.overcommit_memory
+ 1074  :(){ :|:& };:
+ 1075  lsblk
+ 1076  sudo dmesg
+ 1077  lsblk
+ 1078  sudo fdisk /dev/sdd
+ 1079  umount /media/demig0d/55FCD89B2B928E87
+ 1080  sudo fdisk /dev/sdd
+ 1081  mount /media/demig0d/55FCD89B2B928E87
+ 1082  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1083  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1084  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1085  lsblk
+ 1086  sudo systemctl daemon-reload
+ 1087  lsblk
+ 1088  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1089  lsblk
+ 1090  ncdu
+ 1091  sudo apt install links
+ 1092  links sooda.dy.fi
+ 1093  sudo apt install lynx
+ 1094  lynx sooda.dy.fi
+ 1095  lynx youtube.com
+ 1096  lynx google.com
+ 1097  nano ssd1306
+ 1098  lynx ssd1306.html
+ 1099  ls
+ 1100  ls -lia ssd1306.html
+ 1101  links ssd1306.html
+ 1102  cat ssd1306.html
+ 1103  lynx ssd1306.html
+ 1104  neofetch
+ 1105  lynx https://mail.google.com/mail/u/0/#inbox
+ 1106  git
+ 1107  i2cdetect -y 1
+ 1108  ls -lia
+ 1109  python ssd1306_0.py
+ 1110  python3 ssd1306_0.py
+ 1111  sudo pinctrl -l
+ 1112  history
+ 1113  cronitor status
+ 1114  cronitor
+ 1115  cronitor -v status
+ 1116  python3 ssd1306_0.py
+ 1117  i2cdetect -y 1
+ 1118  python3 ssd1306_0.py
+ 1119  sudo dmesg
+ 1120  sudo umount /dev/sdb1
+ 1121  sudo fsck.vfat -a /dev/sdb1
+ 1122  sudo mount /dev/sdb1
+ 1123  lsblk
+ 1124  sudo dmesg
+ 1125  lsblk
+ 1126  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1127  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1128  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1129  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1130  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1131  lsblk
+ 1132  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1133  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1134  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1135  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1136  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1137  python3 ssd1306_0.py
+ 1138  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1139  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1140  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1141  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1142  sudo i2ctransfer -y 1 r5@0x3c
+ 1143  sudo i2ctransfer -y 1 r100@0x3c
+ 1144  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1145  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1146  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1147  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1148  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1149  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1150  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1151  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1152  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1153  crontab  -e
+ 1154  crontab  -l
+ 1155  cat ssd1306_0.py
+ 1156  cat ssd1306.py
+ 1157  6 & 5
+ 1158  ((6 & 5))
+ 1159  (6 & 5)
+ 1160  {}
+ 1161  ;
+ 1162  :
+ 1163  :()
+ 1164  ulimit -u
+ 1165  sysctl vm.overcommit_memory
+ 1166  :(){ :|:& };:
+ 1167  lsblk
+ 1168  sudo dmesg
+ 1169  lsblk
+ 1170  sudo fdisk /dev/sdd
+ 1171  umount /media/demig0d/55FCD89B2B928E87
+ 1172  sudo fdisk /dev/sdd
+ 1173  mount /media/demig0d/55FCD89B2B928E87
+ 1174  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1175  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1176  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1177  lsblk
+ 1178  sudo systemctl daemon-reload
+ 1179  lsblk
+ 1180  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1181  lsblk
+ 1182  ncdu
+ 1183  sudo apt install links
+ 1184  links sooda.dy.fi
+ 1185  sudo apt install lynx
+ 1186  lynx sooda.dy.fi
+ 1187  lynx youtube.com
+ 1188  lynx google.com
+ 1189  nano ssd1306
+ 1190  lynx ssd1306.html
+ 1191  ls
+ 1192  ls -lia ssd1306.html
+ 1193  links ssd1306.html
+ 1194  cat ssd1306.html
+ 1195  lynx ssd1306.html
+ 1196  neofetch
+ 1197  lynx https://mail.google.com/mail/u/0/#inbox
+ 1198  git
+ 1199  i2cdetect -y 1
+ 1200  ls -lia
+ 1201  python ssd1306_0.py
+ 1202  python3 ssd1306_0.py
+ 1203  sudo pinctrl -l
+ 1204  history
+ 1205  cronitor status
+ 1206  cronitor
+ 1207  cronitor -v status
+ 1208  python3 ssd1306_0.py
+ 1209  i2cdetect -y 1
+ 1210  python3 ssd1306_0.py
+ 1211  sudo dmesg
+ 1212  sudo umount /dev/sdb1
+ 1213  sudo fsck.vfat -a /dev/sdb1
+ 1214  sudo mount /dev/sdb1
+ 1215  lsblk
+ 1216  sudo dmesg
+ 1217  lsblk
+ 1218  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1219  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1220  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1221  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1222  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1223  lsblk
+ 1224  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1225  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1226  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1227  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1228  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1229  python3 ssd1306_0.py
+ 1230  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1231  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1232  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1233  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1234  sudo i2ctransfer -y 1 r5@0x3c
+ 1235  sudo i2ctransfer -y 1 r100@0x3c
+ 1236  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1237  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1238  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1239  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1240  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1241  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1242  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1243  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1244  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1245  crontab  -e
+ 1246  crontab  -l
+ 1247  cat ssd1306_0.py
+ 1248  cat ssd1306.py
+ 1249  6 & 5
+ 1250  ((6 & 5))
+ 1251  (6 & 5)
+ 1252  {}
+ 1253  ;
+ 1254  :
+ 1255  :()
+ 1256  ulimit -u
+ 1257  sysctl vm.overcommit_memory
+ 1258  :(){ :|:& };:
+ 1259  lsblk
+ 1260  sudo dmesg
+ 1261  lsblk
+ 1262  sudo fdisk /dev/sdd
+ 1263  umount /media/demig0d/55FCD89B2B928E87
+ 1264  sudo fdisk /dev/sdd
+ 1265  mount /media/demig0d/55FCD89B2B928E87
+ 1266  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1267  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1268  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1269  lsblk
+ 1270  sudo systemctl daemon-reload
+ 1271  lsblk
+ 1272  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1273  lsblk
+ 1274  ncdu
+ 1275  sudo apt install links
+ 1276  links sooda.dy.fi
+ 1277  sudo apt install lynx
+ 1278  lynx sooda.dy.fi
+ 1279  lynx youtube.com
+ 1280  lynx google.com
+ 1281  nano ssd1306
+ 1282  lynx ssd1306.html
+ 1283  ls
+ 1284  ls -lia ssd1306.html
+ 1285  links ssd1306.html
+ 1286  cat ssd1306.html
+ 1287  lynx ssd1306.html
+ 1288  neofetch
+ 1289  lynx https://mail.google.com/mail/u/0/#inbox
+ 1290  git
+ 1291  i2cdetect -y 1
+ 1292  ls -lia
+ 1293  python ssd1306_0.py
+ 1294  python3 ssd1306_0.py
+ 1295  sudo pinctrl -l
+ 1296  history
+ 1297  cronitor status
+ 1298  cronitor
+ 1299  cronitor -v status
+ 1300  python3 ssd1306_0.py
+ 1301  i2cdetect -y 1
+ 1302  python3 ssd1306_0.py
+ 1303  sudo dmesg
+ 1304  sudo umount /dev/sdb1
+ 1305  sudo fsck.vfat -a /dev/sdb1
+ 1306  sudo mount /dev/sdb1
+ 1307  lsblk
+ 1308  sudo dmesg
+ 1309  lsblk
+ 1310  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1311  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1312  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1313  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1314  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1315  lsblk
+ 1316  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1317  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1318  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1319  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1320  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1321  python3 ssd1306_0.py
+ 1322  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1323  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1324  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1325  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1326  sudo i2ctransfer -y 1 r5@0x3c
+ 1327  sudo i2ctransfer -y 1 r100@0x3c
+ 1328  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1329  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1330  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1331  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1332  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1333  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1334  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1335  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1336  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1337  crontab  -e
+ 1338  crontab  -l
+ 1339  cat ssd1306_0.py
+ 1340  cat ssd1306.py
+ 1341  6 & 5
+ 1342  ((6 & 5))
+ 1343  (6 & 5)
+ 1344  {}
+ 1345  ;
+ 1346  :
+ 1347  :()
+ 1348  ulimit -u
+ 1349  sysctl vm.overcommit_memory
+ 1350  :(){ :|:& };:
+ 1351  lsblk
+ 1352  sudo dmesg
+ 1353  lsblk
+ 1354  sudo fdisk /dev/sdd
+ 1355  umount /media/demig0d/55FCD89B2B928E87
+ 1356  sudo fdisk /dev/sdd
+ 1357  mount /media/demig0d/55FCD89B2B928E87
+ 1358  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1359  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1360  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1361  lsblk
+ 1362  sudo systemctl daemon-reload
+ 1363  lsblk
+ 1364  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1365  lsblk
+ 1366  ncdu
+ 1367  sudo apt install links
+ 1368  links sooda.dy.fi
+ 1369  sudo apt install lynx
+ 1370  lynx sooda.dy.fi
+ 1371  lynx youtube.com
+ 1372  lynx google.com
+ 1373  nano ssd1306
+ 1374  lynx ssd1306.html
+ 1375  ls
+ 1376  ls -lia ssd1306.html
+ 1377  links ssd1306.html
+ 1378  cat ssd1306.html
+ 1379  lynx ssd1306.html
+ 1380  neofetch
+ 1381  lynx https://mail.google.com/mail/u/0/#inbox
+ 1382  git
+ 1383  i2cdetect -y 1
+ 1384  ls -lia
+ 1385  python ssd1306_0.py
+ 1386  python3 ssd1306_0.py
+ 1387  sudo pinctrl -l
+ 1388  history
+ 1389  cronitor status
+ 1390  cronitor
+ 1391  cronitor -v status
+ 1392  python3 ssd1306_0.py
+ 1393  i2cdetect -y 1
+ 1394  python3 ssd1306_0.py
+ 1395  sudo dmesg
+ 1396  sudo umount /dev/sdb1
+ 1397  sudo fsck.vfat -a /dev/sdb1
+ 1398  sudo mount /dev/sdb1
+ 1399  lsblk
+ 1400  sudo dmesg
+ 1401  lsblk
+ 1402  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1403  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1404  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1405  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1406  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1407  lsblk
+ 1408  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1409  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1410  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1411  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1412  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1413  python3 ssd1306_0.py
+ 1414  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1415  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1416  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1417  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1418  sudo i2ctransfer -y 1 r5@0x3c
+ 1419  sudo i2ctransfer -y 1 r100@0x3c
+ 1420  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1421  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1422  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1423  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1424  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1425  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1426  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1427  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1428  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1429  crontab  -e
+ 1430  crontab  -l
+ 1431  cat ssd1306_0.py
+ 1432  cat ssd1306.py
+ 1433  6 & 5
+ 1434  ((6 & 5))
+ 1435  (6 & 5)
+ 1436  {}
+ 1437  ;
+ 1438  :
+ 1439  :()
+ 1440  ulimit -u
+ 1441  sysctl vm.overcommit_memory
+ 1442  :(){ :|:& };:
+ 1443  lsblk
+ 1444  sudo dmesg
+ 1445  lsblk
+ 1446  sudo fdisk /dev/sdd
+ 1447  umount /media/demig0d/55FCD89B2B928E87
+ 1448  sudo fdisk /dev/sdd
+ 1449  mount /media/demig0d/55FCD89B2B928E87
+ 1450  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1451  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1452  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1453  lsblk
+ 1454  sudo systemctl daemon-reload
+ 1455  lsblk
+ 1456  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1457  lsblk
+ 1458  ncdu
+ 1459  sudo apt install links
+ 1460  links sooda.dy.fi
+ 1461  sudo apt install lynx
+ 1462  lynx sooda.dy.fi
+ 1463  lynx youtube.com
+ 1464  lynx google.com
+ 1465  nano ssd1306
+ 1466  lynx ssd1306.html
+ 1467  ls
+ 1468  ls -lia ssd1306.html
+ 1469  links ssd1306.html
+ 1470  cat ssd1306.html
+ 1471  lynx ssd1306.html
+ 1472  neofetch
+ 1473  lynx https://mail.google.com/mail/u/0/#inbox
+ 1474  git
+ 1475  i2cdetect -y 1
+ 1476  ls -lia
+ 1477  python ssd1306_0.py
+ 1478  python3 ssd1306_0.py
+ 1479  sudo pinctrl -l
+ 1480  history
+ 1481  cronitor status
+ 1482  cronitor
+ 1483  cronitor -v status
+ 1484  python3 ssd1306_0.py
+ 1485  i2cdetect -y 1
+ 1486  python3 ssd1306_0.py
+ 1487  sudo dmesg
+ 1488  sudo umount /dev/sdb1
+ 1489  sudo fsck.vfat -a /dev/sdb1
+ 1490  sudo mount /dev/sdb1
+ 1491  lsblk
+ 1492  sudo dmesg
+ 1493  lsblk
+ 1494  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1495  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1496  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1497  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1498  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1499  lsblk
+ 1500  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1501  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1502  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1503  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1504  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1505  python3 ssd1306_0.py
+ 1506  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1507  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1508  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1509  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1510  sudo i2ctransfer -y 1 r5@0x3c
+ 1511  sudo i2ctransfer -y 1 r100@0x3c
+ 1512  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1513  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1514  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1515  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1516  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1517  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1518  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1519  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1520  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1521  crontab  -e
+ 1522  crontab  -l
+ 1523  cat ssd1306_0.py
+ 1524  cat ssd1306.py
+ 1525  6 & 5
+ 1526  ((6 & 5))
+ 1527  (6 & 5)
+ 1528  {}
+ 1529  ;
+ 1530  :
+ 1531  :()
+ 1532  ulimit -u
+ 1533  sysctl vm.overcommit_memory
+ 1534  :(){ :|:& };:
+ 1535  lsblk
+ 1536  sudo dmesg
+ 1537  lsblk
+ 1538  sudo fdisk /dev/sdd
+ 1539  umount /media/demig0d/55FCD89B2B928E87
+ 1540  sudo fdisk /dev/sdd
+ 1541  mount /media/demig0d/55FCD89B2B928E87
+ 1542  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1543  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1544  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1545  lsblk
+ 1546  sudo systemctl daemon-reload
+ 1547  lsblk
+ 1548  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1549  lsblk
+ 1550  ncdu
+ 1551  sudo apt install links
+ 1552  links sooda.dy.fi
+ 1553  sudo apt install lynx
+ 1554  lynx sooda.dy.fi
+ 1555  lynx youtube.com
+ 1556  lynx google.com
+ 1557  nano ssd1306
+ 1558  lynx ssd1306.html
+ 1559  ls
+ 1560  ls -lia ssd1306.html
+ 1561  links ssd1306.html
+ 1562  cat ssd1306.html
+ 1563  lynx ssd1306.html
+ 1564  neofetch
+ 1565  lynx https://mail.google.com/mail/u/0/#inbox
+ 1566  git
+ 1567  i2cdetect -y 1
+ 1568  ls -lia
+ 1569  python ssd1306_0.py
+ 1570  python3 ssd1306_0.py
+ 1571  sudo pinctrl -l
+ 1572  history
+ 1573  cronitor status
+ 1574  cronitor
+ 1575  cronitor -v status
+ 1576  python3 ssd1306_0.py
+ 1577  i2cdetect -y 1
+ 1578  python3 ssd1306_0.py
+ 1579  sudo dmesg
+ 1580  sudo umount /dev/sdb1
+ 1581  sudo fsck.vfat -a /dev/sdb1
+ 1582  sudo mount /dev/sdb1
+ 1583  lsblk
+ 1584  sudo dmesg
+ 1585  lsblk
+ 1586  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1587  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1588  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1589  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1590  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1591  lsblk
+ 1592  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1593  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1594  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1595  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1596  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1597  python3 ssd1306_0.py
+ 1598  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1599  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1600  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1601  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1602  sudo i2ctransfer -y 1 r5@0x3c
+ 1603  sudo i2ctransfer -y 1 r100@0x3c
+ 1604  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1605  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1606  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1607  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1608  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1609  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1610  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1611  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1612  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1613  crontab  -e
+ 1614  crontab  -l
+ 1615  cat ssd1306_0.py
+ 1616  cat ssd1306.py
+ 1617  6 & 5
+ 1618  ((6 & 5))
+ 1619  (6 & 5)
+ 1620  {}
+ 1621  ;
+ 1622  :
+ 1623  :()
+ 1624  ulimit -u
+ 1625  sysctl vm.overcommit_memory
+ 1626  :(){ :|:& };:
+ 1627  lsblk
+ 1628  sudo dmesg
+ 1629  lsblk
+ 1630  sudo fdisk /dev/sdd
+ 1631  umount /media/demig0d/55FCD89B2B928E87
+ 1632  sudo fdisk /dev/sdd
+ 1633  mount /media/demig0d/55FCD89B2B928E87
+ 1634  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1635  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1636  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1637  lsblk
+ 1638  sudo systemctl daemon-reload
+ 1639  lsblk
+ 1640  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1641  lsblk
+ 1642  ncdu
+ 1643  sudo apt install links
+ 1644  links sooda.dy.fi
+ 1645  sudo apt install lynx
+ 1646  lynx sooda.dy.fi
+ 1647  lynx youtube.com
+ 1648  lynx google.com
+ 1649  nano ssd1306
+ 1650  lynx ssd1306.html
+ 1651  ls
+ 1652  ls -lia ssd1306.html
+ 1653  links ssd1306.html
+ 1654  cat ssd1306.html
+ 1655  lynx ssd1306.html
+ 1656  neofetch
+ 1657  lynx https://mail.google.com/mail/u/0/#inbox
+ 1658  git
+ 1659  i2cdetect -y 1
+ 1660  ls -lia
+ 1661  python ssd1306_0.py
+ 1662  python3 ssd1306_0.py
+ 1663  sudo pinctrl -l
+ 1664  history
+ 1665  cronitor status
+ 1666  cronitor
+ 1667  cronitor -v status
+ 1668  python3 ssd1306_0.py
+ 1669  i2cdetect -y 1
+ 1670  python3 ssd1306_0.py
+ 1671  sudo dmesg
+ 1672  sudo umount /dev/sdb1
+ 1673  sudo fsck.vfat -a /dev/sdb1
+ 1674  sudo mount /dev/sdb1
+ 1675  lsblk
+ 1676  sudo dmesg
+ 1677  lsblk
+ 1678  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1679  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1680  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1681  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1682  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1683  lsblk
+ 1684  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1685  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1686  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1687  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1688  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1689  python3 ssd1306_0.py
+ 1690  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1691  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1692  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1693  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1694  sudo i2ctransfer -y 1 r5@0x3c
+ 1695  sudo i2ctransfer -y 1 r100@0x3c
+ 1696  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1697  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1698  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1699  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1700  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1701  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1702  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1703  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1704  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1705  crontab  -e
+ 1706  crontab  -l
+ 1707  cat ssd1306_0.py
+ 1708  cat ssd1306.py
+ 1709  6 & 5
+ 1710  ((6 & 5))
+ 1711  (6 & 5)
+ 1712  {}
+ 1713  ;
+ 1714  :
+ 1715  :()
+ 1716  ulimit -u
+ 1717  sysctl vm.overcommit_memory
+ 1718  :(){ :|:& };:
+ 1719  lsblk
+ 1720  sudo dmesg
+ 1721  lsblk
+ 1722  sudo fdisk /dev/sdd
+ 1723  umount /media/demig0d/55FCD89B2B928E87
+ 1724  sudo fdisk /dev/sdd
+ 1725  mount /media/demig0d/55FCD89B2B928E87
+ 1726  mount /dev/sdd /media/demig0d/55FCD89B2B928E87
+ 1727  mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1728  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1729  lsblk
+ 1730  sudo systemctl daemon-reload
+ 1731  lsblk
+ 1732  sudo mount /dev/sdd1 /media/demig0d/55FCD89B2B928E87
+ 1733  lsblk
+ 1734  ncdu
+ 1735  sudo apt install links
+ 1736  links sooda.dy.fi
+ 1737  sudo apt install lynx
+ 1738  lynx sooda.dy.fi
+ 1739  lynx youtube.com
+ 1740  lynx google.com
+ 1741  nano ssd1306
+ 1742  lynx ssd1306.html
+ 1743  ls
+ 1744  ls -lia ssd1306.html
+ 1745  links ssd1306.html
+ 1746  cat ssd1306.html
+ 1747  lynx ssd1306.html
+ 1748  neofetch
+ 1749  lynx https://mail.google.com/mail/u/0/#inbox
+ 1750  git
+ 1751  i2cdetect -y 1
+ 1752  ls -lia
+ 1753  python ssd1306_0.py
+ 1754  python3 ssd1306_0.py
+ 1755  sudo pinctrl -l
+ 1756  history
+ 1757  cronitor status
+ 1758  cronitor
+ 1759  cronitor -v status
+ 1760  python3 ssd1306_0.py
+ 1761  i2cdetect -y 1
+ 1762  python3 ssd1306_0.py
+ 1763  sudo dmesg
+ 1764  sudo umount /dev/sdb1
+ 1765  sudo fsck.vfat -a /dev/sdb1
+ 1766  sudo mount /dev/sdb1
+ 1767  lsblk
+ 1768  sudo dmesg
+ 1769  lsblk
+ 1770  ls -lia "/media/demig0d/UBUNTU 24_0"
+ 1771  ls -lia "/media/demig0d/UBUNTU 24_0/*.mp3"
+ 1772  ls -lia "/media/demig0d/UBUNTU 24_0/"*.mp3
+ 1773  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo.mp3"
+ 1774  ffprobe -v error -show_format -show_streams "/media/demig0d/UBUNTU 24_0/yugo1.mp3"
+ 1775  lsblk
+ 1776  ls -lia /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835
+ 1777  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1778  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1779  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xae
+ 1780  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1781  python3 ssd1306_0.py
+ 1782  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1783  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1784  nano /media/demig0d/fe5dbbbc-2989-4663-a580-ec96301ec835/history_backup.txt
+ 1785  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1786  sudo i2ctransfer -y 1 r5@0x3c
+ 1787  sudo i2ctransfer -y 1 r100@0x3c
+ 1788  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1789  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1790  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1791  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1792  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1793  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1794  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x00 0x00 0x00 0x00
+ 1795  sudo i2ctransfer -y 1 w8@0x3c 0x40 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+ 1796  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1797  crontab  -e
+ 1798  crontab  -l
+ 1799  cat ssd1306_0.py
+ 1800  cat ssd1306.py
+ 1801  6 & 5
+ 1802  ((6 & 5))
+ 1803  (6 & 5)
+ 1804  {}
+ 1805  ;
+ 1806  :
+ 1807  :()
+ 1808  ulimit -u
+ 1809  sysctl vm.overcommit_memory
+ 1810  :(){ :|:& };:
+ 1811  history
+ 1812  history -d 2000
+ 1813  history
+ 1814  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1815  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1816  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1817  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1818  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1819  python3 ssd1306_0.py
+ 1820  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1821  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1822  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1823  sudo i2cdetect -y 1
+ 1824  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1825  sudo i2cdetect -y 1
+ 1826  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1827  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1828  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1829  python3 ssd1306_0.py
+ 1830  sudo i2ctransfer -y 1 w2@0x3c 0x00 0xaf
+ 1831  sudo i2ctransfer -y 1 w4@0x3c 0x00 0x0f 0x10 0xb0
+ 1832  sudo i2ctransfer -y 1 w5@0x3c 0x40 0x01 0x00 0x00 0x00
+ 1833  lsmod | grep spi
+ 1834  ioctl
+ 1835  sudo apt install ioctl
+ 1836  pinout
+ 1837  pinctrl
+ 1838  nano spitest.py
+ 1839  # spitest.py
+ 1840  # A brief demonstration of the Raspberry Pi SPI interface, using the Sparkfun
+ 1841  # Pi Wedge breakout board and a SparkFun Serial 7 Segment display:
+ 1842  # https://www.sparkfun.com/products/11629
+ 1843  import time
+ 1844  import spidev
+ 1845  # We only have SPI bus 0 available to us on the Pi
+ 1846  bus = 0
+ 1847  #Device is the chip select pin. Set to 0 or 1, depending on the connections
+ 1848  device = 1
+ 1849  # Enable SPI
+ 1850  spi = spidev.SpiDev()
+ 1851  # Open a connection to a specific bus and device (chip select pin)
+ 1852  spi.open(bus, device)
+ 1853  # Set SPI speed and mode
+ 1854  spi.max_speed_hz = 500000
+ 1855  spi.mode = 0
+ 1856  # Clear display
+ 1857  msg = [0x76]
+ 1858  spi.xfer2(msg)
+ 1859  time.sleep(5)
+ 1860  # Turn on one segment of each character to show that we can
+ 1861  # address all of the segments
+ 1862  i = 1
+ 1863  while i < 0x7f:;
+ 1864      msg = [0x77];     msg.append(i)
+ 1865  python spitest.py
+ 1866  nano spitest.py
+ 1867  cat spitest.py
+ 1868  sudo python3_luma.lcd
+ 1869  sudo apt install python3_luma.lcd
+ 1870  pip3 install luma.lcd
+ 1871  sudo apt install python3-luma.lcd
+ 1872  nano lcd_test.py
+ 1873  pinout
+ 1874  pinctrl
+ 1875  pinctrl -p
+ 1876  pinctrl -l
+ 1877  pinctrl -a
+ 1878  pinctrl help
+ 1879  pinctrl -c bcm2835
+ 1880  nano lcd_test.py
+ 1881  python lcd_test.py
+ 1882  nano lcd_test.py
+ 1883  python lcd_test.py
+ 1884  nano lcd_test.py
+ 1885  sudo raspi-config
+ 1886  nano lcd_test.py
+ 1887  python lcd_test.py
+ 1888  nano lcd_test.py
+ 1889  python lcd_test.py
+ 1890  pinctrl 9
+ 1891  pinctrl 7-11
+ 1892  ls -l /dev/spidev0.*
+ 1893  nano lcd_test.py
+ 1894  python lcd_test.py
+ 1895  nano lcd_test.py
+ 1896  python lcd_test.py
+ 1897  pinctrl 12
+ 1898  sudo pinctrl set 12 op dh
+ 1899  pinctrl get 12
+ 1900  pinctrl get 24
+ 1901  pinctrl get 35
+ 1902  pinctrl 35
+ 1903  pinctrl 24
+ 1904  sudo pinctrl set 24 op dh
+ 1905  python lcd_test.py
+ 1906  pinctrl get 24
+ 1907  sudo pinctrl set 24 op dh
+ 1908  pinctrl get 24
+ 1909  python lcd_test.py
+ 1910  pinctrl get 24
+ 1911  nano lcd_test.py
+ 1912  python lcd_test.py
+ 1913  nano lcd_test.py
+ 1914  python lcd_test.py
+ 1915  pinctrl 7-11
+ 1916  pinout
+ 1917  pinctrl 7-11
+ 1918  python lcd_test.py
+ 1919  python3 ssd1306_0.py
+ 1920  sudo i2cdetect -y 1
+ 1921  python3 ssd1306_0.py
+ 1922  python3 ssd1306.py
+ 1923  sudo apt install
+ 1924  gh repo clone pimylifeup/MFRC522-python
+ 1925  gh auth login
+ 1926  gh repo clone pimylifeup/MFRC522-python
+ 1927  git https://github.com/pimylifeup/MFRC522-python.git
+ 1928  git clone https://github.com/pimylifeup/MFRC522-python.git
+ 1929  ls
+ 1930  cd MFRC522-python
+ 1931  ls
+ 1932  cd mfrc522
+ 1933  ld
+ 1934  ls
+ 1935  python3 MFRC522.py
+ 1936  nano MFRC522.py
+ 1937  cat MFRC522.py
+ 1938  sudo apt install python3-RPi.GPIO
+ 1939  python3 MFRC522.py
+ 1940  python3 -v MFRC522.py
+ 1941  cd ..
+ 1942  ls
+ 1943  python3 -v setup.py
+ 1944  python3 setup.py
+ 1945  cd ..
+ 1946  nano Read.py
+ 1947  python3 Read.py
+ 1948  python Read.py
+ 1949  export PYTHONPATH=$PYTHONPATH:/home/demig0d/MFRC522-python
+ 1950  python3 Read.py
+ 1951  export PYTHONPATH=$PYTHONPATH:/home/demig0d/MFRC522-python
+ 1952  python3 Read.py
+ 1953  nano Read.py
+ 1954  python3 Read.py
+ 1955  python lcd_test.py
+ 1956  nano lcd_test.py
+ 1957  python lcd_test.py
+ 1958  cat lcd_test.py
+ 1959  pinctrl 7-11
+ 1960  pinout
+ 1961  ls
+ 1962  nano spitest.py
+ 1963  lsblk
+ 1964  sudo fdisk /dev/sdd
+ 1965  ls /media/demig0d/rootfs
+ 1966  ls /media/demig0d/rootfs/home
+ 1967  ls /media/demig0d/rootfs/home/demig0d
+ 1968  sudo fdisk /dev/sdd
+ 1969  lsblk
+ 1970  sudo fdisk /dev/sde
+ 1971  lsblk
+ 1972  ls -lia /dev/sde1
+ 1973  sudo mount /dev/sde1 /mnt/
+ 1974  sudo mkfs.vfat -F 32 -I /dev/sde1
+ 1975  sudo mount /dev/sde1 /mnt/
+ 1976  systemctl daemon-reload'
+ 1977  systemctl daemon-reload
+ 1978  sudo systemctl daemon-reload
+ 1979  lsblk
+ 1980  curl http://learn.adafruit.com/system/assets/assets/000/010/143/original/parrot.bmp
+ 1981  curl -L -o /tmp/test.bmp https://raw.githubusercontent.com/arduino-libraries/TFT/master/examples/Esplora/EsploraTFTBitmapLogo/RDKLogo.bmp
+ 1982  curl -L -o curl -L -o /tmp/test.bmp https://raw.githubusercontent.com/arduino-libraries/TFT/master/examples/Esplora/EsploraTFTBitmapLogo/RDKLogo.bmp
+ 1983  curl -L -o http://learn.adafruit.com/system/assets/assets/000/010/143/original/parrot.bmp
+ 1984  curl -L -o /tmp/parrot.bmp http://learn.adafruit.com/system/assets/assets/000/010/143/original/parrot.bmp
+ 1985  ls -lia /tmp/
+ 1986  ls -lia /tmp/parrot.bmp
+ 1987  cp /tmp/*.bmp ~/
+ 1988  ls -lia
+ 1989  lsblk
+ 1990  ls -lia /mnt
+ 1991  cp ~/*.bmp /mnt
+ 1992  sudo umount /dev/sde1 /mnt/
+ 1993  sudo mount /dev/sde1 /media/demig0d/kortti
+ 1994  mkdir /media/demig0d/kortti
+ 1995  sudo mkdir /media/demig0d/kortti
+ 1996  sudo mount /dev/sde1 /media/demig0d/kortti
+ 1997  cp ~/*.bmp /media/demig0d/kortti
+ 1998  chown 1000 /media/demig0d/kortti
+ 1999  sudo cp ~/*.bmp /media/demig0d/kortti/
+ 2000  sudo umount /dev/sde1 /media/demig0d/kortti
+ 2001  curl
+ 2002  history
+ 2003  pinout
+ 2004  nano ws2812b.c
+ 2005  cat ws2812b.c
+ 2006  pinctrl func 18
+ 2007  pinctrl funcs 18
+ 2008  pinctrl funcs 8
+ 2009  pinctrl funcs 1
+ 2010  sudo apt install scons
+ 2011  mkdir test
+ 2012  git clone https://github.com/jgarff/rpi_ws281x
+ 2013  cd rpi_ws281x
+ 2014  scons
+ 2015  sudo ./test
+ 2016  ls
+ 2017  ls *.c
+ 2018  cat *.c
+ 2019  ls
+ 2020  nano main.c
+ 2021  scons
+ 2022  nano main.c
+ 2023  scons
+ 2024  nano main.c
+ 2025  cd
+ 2026  ls
+ 2027  cat testi.c
+ 2028  history
+demig0d@testailua:~ $
