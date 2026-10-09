@@ -1,0 +1,39 @@
+void motor_run() {
+  Serial.println(speed_motor);
+
+  digitalWrite(en,1);
+  digitalWrite(in_A,0);
+  digitalWrite(in_B,0);
+  digitalWrite(in_C,1);
+  delay(speed_motor); //Phase 1
+
+  digitalWrite(en,1);
+  digitalWrite(in_A,0);
+  digitalWrite(in_B,1);
+  digitalWrite(in_C,1);
+  delay(speed_motor); //Phase 2
+
+  digitalWrite(en,1);
+  digitalWrite(in_A,0);
+  digitalWrite(in_B,1);
+  digitalWrite(in_C,0);
+  delay(speed_motor); //Phase 3
+
+  digitalWrite(en,1);
+  digitalWrite(in_A,1);
+  digitalWrite(in_B,1);
+  digitalWrite(in_C,0);
+  delay(speed_motor); //Phase 4
+
+  digitalWrite(en,1);
+  digitalWrite(in_A,1);
+  digitalWrite(in_B,0);
+  digitalWrite(in_C,0);
+  delay(speed_motor); //Phase 5
+
+  digitalWrite(en,1);
+  digitalWrite(in_A,1);
+  digitalWrite(in_B,0);
+  digitalWrite(in_C,1);
+  delay(speed_motor); //Phase 6
+}
